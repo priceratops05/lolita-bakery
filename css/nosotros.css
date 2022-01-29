@@ -1,0 +1,58 @@
+#about {
+    padding-bottom: 100px;
+}
+
+.half-section {
+    color: var(--grey);
+    background-color: var(--pink-light);
+    /* background-color: #F0AABA; */
+}
+
+.half-section img {
+    height: 500px;
+    margin: 0 30px;
+    object-fit: cover;
+    object-position: 0 30%;
+}
+
+.text-section {
+    padding: 50px 30px;
+    /* background-image: url(../images/nosotros/muffins-candles-aalaw-sprinkles-corner-pink-background.jpg); */
+}
+
+.text-section h1 {
+    color: var(--pink-dark);
+    font-size: 3.2rem;
+    margin: 15px 0;
+}
+
+.text-section p {
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.text-section hr {
+    opacity: .5;
+    background-color: var(--pink-dark);
+}
+
+footer:after {
+    background: #feb1cd;
+}
+
+@media all and (min-width: 992px) {
+    #about {
+        padding-bottom: 0;
+    }
+    .half-section {
+        height: 50vh;
+        min-height: 560px;
+    }
+    .half-section img {
+        height: initial;
+        width: 50%;
+        margin: 0;
+    }
+}

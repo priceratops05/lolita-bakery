@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--pink-light);
+    font-family: var(--main-font);
+}
+
+html {
+    font-size: 10px;
+    scroll-padding-top: 150px;
+}
+
+a.buy-button {
+    background-color: var(--yellow);
+    border-radius: 8px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .2);
+    transition: transform 0.3s;
+}
+
+.buy-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.fa-coins,
+.fa-paper-plane {
+    margin-right: 5px;
+}
+
+.line {
+    border-top: 1px solid var(--pink-dark);
+    margin: 0 auto 50px;
+    max-width: 400px;
+}

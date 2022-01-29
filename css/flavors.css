@@ -1,0 +1,187 @@
+:root {
+    --vanilla: #F7F3DE;
+    --chocolate: #764222;
+    --red-velvet: #A60303;
+    --lemon: #EAFFB1;
+    --orange: #F29F05;
+    --carrot: #F27127;
+    --banana: #F2CF63;
+    --baileys: #F2CEA2;
+    --blueberry: #4F628B;
+    --poppy: #595959;
+    --dutch-orange: #FF8E5D;
+    --mocca: #A67D65;
+    --caramel: #BE6F40;
+    --vanilla-butter: #F2E5BD;
+    --chocolate-butter: #D97B59;
+    --mint: #D9F2CE;
+    --ganache: #73261F;
+    --fudge: #A65132;
+    --berry-jam: #7A0733;
+    --berry-jam-2: #B53953;
+    --cream-cheese: #F2EDE4;
+    --cookie: #D9A273;
+    --cream: #F2F2F2;
+    --nutella: #A65437;
+    --condensed: #f7ebc6;
+    --strawberry: #EF2C3B;
+}
+
+.flavor {
+    border: 1px solid var(--grey);
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    transform: rotate(-45deg);
+    width: 20px;
+    overflow: hidden;
+}
+
+.flavor:before {
+    border-radius: 0 0 9px 9px;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 9px;
+    width: 100%;
+}
+
+.flavor.vanilla {
+    background-color: var(--vanilla);
+}
+
+.flavor.chocolate {
+    background-color: var(--chocolate);
+}
+
+.flavor.red-velvet {
+    background-color: var(--red-velvet);
+}
+
+.flavor.lemon {
+    background-color: var(--lemon);
+}
+
+.flavor.orange {
+    background-color: var(--orange);
+}
+
+.flavor.mix {
+    background-color: var(--vanilla);
+}
+
+.flavor.mix:before {
+    background-color: var(--chocolate);
+}
+
+.flavor.carrot {
+    background-color: var(--carrot);
+}
+
+.flavor.banana {
+    background-color: var(--banana);
+}
+
+.flavor.baileys {
+    background-color: var(--baileys);
+}
+
+.flavor.choco-banana {
+    background-color: var(--chocolate);
+}
+
+.flavor.choco-banana:before {
+    background-color: var(--banana);
+}
+
+.flavor.lemon-blue-berry:before {
+    background-color: var(--lemon);
+}
+
+.flavor.lemon-blue-berry {
+    background-color: var(--blueberry);
+}
+
+.flavor.lemon-poppy:before {
+    background-color: var(--lemon);
+}
+
+.flavor.lemon-poppy {
+    background-color: var(--poppy);
+}
+
+.flavor.funfetti:before {
+    background-color: var(--pink-dark);
+}
+
+.flavor.funfetti {
+    background-color: var(--yellow);
+}
+
+.flavor.dutch-orange {
+    background-color: var(--dutch-orange);
+}
+
+.flavor.mocca {
+    background-color: var(--mocca);
+}
+
+.flavor.vanilla-butter {
+    background-color: var(--vanilla-butter);
+}
+
+.flavor.chocolate-butter {
+    background-color: var(--chocolate-butter);
+}
+
+.flavor.caramel {
+    background-color: var(--caramel);
+}
+
+.flavor.mint-butter {
+    background-color: var(--mint);
+}
+
+.flavor.ganache {
+    background-color: var(--ganache);
+}
+
+.flavor.fudge {
+    background-color: var(--fudge);
+}
+
+.flavor.jam {
+    background-color: var(--berry-jam);
+}
+
+.flavor.jam:before {
+    background-color: var(--berry-jam-2);
+}
+
+.flavor.cream-cheese {
+    background-color: var(--cream-cheese);
+}
+
+.flavor.cookies-cream {
+    background-color: var(--cookie);
+}
+
+.flavor.cookies-cream:before {
+    background-color: var(--cream);
+}
+
+.flavor.nutella {
+    background-color: var(--nutella);
+}
+
+.flavor.condensed {
+    background-color: var(--condensed);
+}
+
+.flavor.strawberry {
+    background-color: var(--strawberry);
+}

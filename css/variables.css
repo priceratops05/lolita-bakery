@@ -1,0 +1,11 @@
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --secondary-font: montserrat, sans-serif;
+    --number-font: 'Puppies Play', cursive;
+    --grey: rgb(110, 107, 107);
+    --lilac: #b695bf;
+    --pink-dark: #FE7EAF;
+    --pink-light: #fee2ec;
+    --white: #fff;
+    --yellow: #f2bb13;
+}
