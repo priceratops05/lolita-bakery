@@ -1,4 +1,7 @@
 # Lolita Bakery
+![Screen Shot 2022-04-20 at 11 55 50 AM](https://user-images.githubusercontent.com/66759818/164293228-7e1c97e0-fcea-466a-8a07-29e78d0058fd.png)
+
+
 
 ## Project description
 
